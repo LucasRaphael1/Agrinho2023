@@ -241,30 +241,6 @@ section{
   font-weight: normal;
 }
 
-/* gallery */
-
-.gallery{
-  background: var(--bg);
-}
-
-.gallery .slide .image{
-  height: 30rem;
-  overflow: hidden;
-  position: relative;
-}
-
-.gallery .slide .image img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.swiper-button-next,
-.swiper-button-prev{
-  color: var(--white);
-}
-
-
 /* projects */
 
 .projects .box-container{
