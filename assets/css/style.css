@@ -1,4 +1,8 @@
+/*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+/*Geral*/
 
 :root{
   --main: #1cac06;
@@ -36,6 +40,8 @@ html::-webkit-scrollbar-thumb{
   background: var(--main);
   border-radius: 5rem;
 }
+
+/*Header*/
 
 section{
   padding: 8rem 7%;
@@ -135,7 +141,8 @@ section{
 #menu-btn{
   display: none;
 }
-/* home */
+
+/* Home */
 
 .home{
   min-height: 100vh;
@@ -164,7 +171,7 @@ section{
   height: 12rem;
 }
 
-/* about */
+/* Sobre */
 
 .about .box-container{
   display: flex;
@@ -240,7 +247,7 @@ section{
   font-weight: normal;
 }
 
-/* projects */
+/* Projetos */
 
 .projects .box-container{
   display: grid;
@@ -297,7 +304,7 @@ section{
   transform: translateY(-20px);
 }
 
-/* banner */
+/* Definições */
 
 .banner{
   background: url(../img/banner.png) no-repeat;
@@ -380,44 +387,6 @@ section{
   font-size: 1.5rem;
   color: var(--black);
   padding: .5rem 0;
-}
-
-/* contact */
-
-.contact{
-  background: var(--bg);
-}
-
-.contact form{
-  padding: 2rem 10%;
-  text-align: center;
-}
-
-.contact form .inputBox{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.contact form .inputBox input,
-.contact form textarea{
-  font-size: 1.7rem;
-  width: 49%;
-  padding: 1rem 2rem;
-  margin: 1rem 0;
-  border-radius: .5rem;
-  text-transform: none;
-}
-
-.contact form .inputBox input::placeholder,
-.contact form textarea::placeholder{
-  text-transform: capitalize;
-}
-
-.contact form textarea{
-  height: 15rem;
-  resize: none;
-  width: 100%;
 }
 
 /* footer */
@@ -509,7 +478,7 @@ section{
   color: var(--main);
 }
 
-/* media queries */
+/* Responsividade */
 
 @media(max-width: 991px){
   html{
